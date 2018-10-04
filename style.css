@@ -1,0 +1,34 @@
+body, body * {
+	font-family: 'Montserrat', sans-serif !important;
+	color: #494949;
+	font-weight: bold;
+}
+
+body {
+	background-color: #40a63d1a;
+}
+/* Write all your CSS here! */
+.navbar-brand{
+	color: #d23a56 !important;
+	font-weight: bold;
+}
+.card-deck{
+	margin: 1em;
+	margin-top: auto;
+}
+h1{
+	padding: 1em;
+}
+.btn-success{
+	display: flex !important;
+	width: 50%;
+}
+small{
+	margin-left: 2em;
+}
+h5{
+	font-weight: bold;
+}
+i,em{
+	color: #7bc45b;
+}
