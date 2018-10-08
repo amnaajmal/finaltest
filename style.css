@@ -1,29 +1,40 @@
 body, body * {
 	font-family: 'Montserrat', sans-serif !important;
 	color: #494949;
-	font-weight: bold;
 }
-
+.nav-link{
+	text-transform: uppercase;
+}
 body {
 	background-color: #40a63d1a;
 }
 /* Write all your CSS here! */
+.shugi{
+	background-image: url("");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
 .navbar-brand{
 	color: #d23a56 !important;
 	font-weight: bold;
 }
-.card-deck{
-	margin: 1em;
-	margin-top: auto;
+.col-sm-4{
+	margin-top: 1em;
 }
+a{
+	color: #838386;
+}
+button{
+	font-weight: bold !important;
+}
+
 h1{
 	padding: 1em;
 }
-.btn-success{
-	display: flex !important;
-	width: 50%;
-}
+
 small{
+	font-weight: bold;
 	margin-left: 2em;
 }
 h5{
