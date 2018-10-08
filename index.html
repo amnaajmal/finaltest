@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,66 +19,66 @@
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <script src="script.js"></script>
 </head>
+<body onload="initialize()">
 
-<body>
-
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#"> <img src="images/logo.png">Tech Karo</a>
-    <section>
-     <a href=""> <img src="images/en-flag.png" onclick="english()"></a>
-     <a href="" onclick="urdu();"><img src="images/ur-flag.png" ></a>
-     <a href=""><img src="images/zh-flag.png" onclick="chines()"></a>
-   </section>
- </nav>
- <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Menu Option 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Menu Option 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Menu Option 3</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Menu Option 4</a>
-      </li>
-    </ul>
-  </div>
+ <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#"> <img src="images/logo.png">Tech Karo</a>
+  <section class="flags">
+   <a href="#"> <img src="images/en-flag.png" onclick="language('en')"></a>
+   <a href="#"><img src="images/ur-flag.png" onclick="language('ur')"></a>
+   <a href="#"><img src="images/zh-flag.png" onclick="language('zh')"></a>
+ </section>
 </nav>
-<h1>A FLOWER A DAY...</h1>
-<div class="card-deck">
-  <div class="card">
-    <button type="button" class="btn btn-success">What's new at TechKaro?</button>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav1" href="#"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav2" href="#"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav3" href="#"></a>
+    </li>
+  </ul>
+</div>
+</nav>
+<div class="container">
+  <h1>A Flower A Day</h1>
+  <button type="button" class="btn btn-success">What's new in Tech Karo?</button>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="shugi">
+        </div>
+        <small class="text-muted"> <i class="fa fa-calendar" aria-hidden="true"> </i>October 4,2018-11h 20m<span></span> <i class="fas fa-user"></i>by <em>TechKaro Community</em>
+        </small>
+        <div class="card-body">
+          <small class="text-muted"></small>
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
 
-    <img class="card-img-top" src="https://images.unsplash.com/photo-1436891436013-5965265af5fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c7dbbae22c460b4d630921586424d242&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
-    <small class="text-muted"> <i class="fa fa-calendar" aria-hidden="true"> </i>October 4,2018-11h 20m<span></span> <i class="fas fa-user"></i>by <em>TechKaro Community</em>
-
-    </small>
-    <hr>
-
-    <div class="card-body">
-      <h5 class="card-title"></h5>
-      <p class="card-text"></p>
+    <div class="col-sm-4">
+      <button type="button" class="btn btn-success">New to Tech Karo?learn more></button>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title crd1"></h5>
+          <p class="card-text p1"></p>
+        </div>
+      </div>
     </div>
   </div>
-
-  <div class="card">
-    <button type="button" class="btn btn-success">New To TechKaro?Learn more></button>
-
-    <div class="card-body">
-      <h5 class="card-title1"></h5>
-      <p class="card-text1"></p>
-    </div>
-  </div></div>
-
-
+</div>
 
 </body>
-
 </html>
